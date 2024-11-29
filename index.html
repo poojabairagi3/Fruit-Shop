@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="margin: 0;">
+    <!-- Header Section -->
+    <div id="header" style="padding: 1rem; background-color: lightblue;">
+        <h1 id="main-heading" style="margin: 0;">Fruit Shop</h1>
+        <div id="filtersearch">
+            <input type="text" id="filter" placeholder="Search fruits...">
+        </div>
+    </div>
+
+    <!-- Form Section -->
+    <div>
+        <form>
+            <div class="container">
+                <h2 id="basket-heading">Add Fruits</h2>
+                <input type="text" name="fruit" id="fruit-to-add" placeholder="Fruit Name">
+                <input type="text" name="description" id="fruit-discription" placeholder="Description">
+                <button type="submit">Add</button>
+            </div>
+        </form>
+
+        <!-- Fruits List -->
+        <ul class="fruits">
+            <li class="fruit">
+                <strong>Banana</strong> - A sweet and soft fruit
+                <button class="delete-btn">X</button>
+                <button class="edit-btn">Edit</button>
+            </li>
+            <li class="fruit">
+                <strong>Apple</strong> - A crisp and juicy fruit
+                <button class="delete-btn">X</button>
+                <button class="edit-btn">Edit</button>
+            </li>
+            <li class="fruit">
+                <strong>Orange</strong> - A tangy and refreshing fruit
+                <button class="delete-btn">X</button>
+                <button class="edit-btn">Edit</button>
+            </li>
+            <li class="fruit">
+                <strong>Kiwi</strong> - A tart and exotic fruit
+                <button class="delete-btn">X</button>
+                <button class="edit-btn">Edit</button>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Thank You Section -->
+    <div id="thanks"></div>
+
+    <!-- Script -->
+    <script src="app2.js"></script>
+</body>
+</html>
